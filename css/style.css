@@ -10,17 +10,40 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
-    color: white;
 	overflow-x: hidden;
     min-height: 98vh;
     height: 98%;
     position: relative;
+    color: rgba(255, 255, 255, 0.1);
 }
 
-h1 {
+main {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+main h1 {
     font-weight: 300;
     position: absolute;
+    color: white;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -70%);
+}
+
+main p {
+    position: absolute;
+    right: 2rem;
+    bottom: 0;
+}
+
+main a:link,
+main a:visited {
+    color: rgba(255, 255, 255, 0.1)
+}
+
+main a:hover {
+    text-decoration: none;
+    color: white;
 }
