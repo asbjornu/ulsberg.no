@@ -1,5 +1,8 @@
 html {
-    /* https://pixabay.com/photos/fog-cold-trees-pines-mountain-2589504/ */
+    /*
+    Image by StockSnap from Pixabay.
+    https://pixabay.com/photos/fog-cold-trees-pines-mountain-2589504/
+    */
     background: #222222 url('../img/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
